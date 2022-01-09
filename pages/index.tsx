@@ -2,8 +2,8 @@ import Head from "next/head";
 import { GetStaticProps } from "next";
 
 import { Categories, PostCard, PostWidget } from "@components/index";
-import { getPosts, getRecentPosts } from "@/services/posts.service";
-import { Edge } from "@/services/posts.interfaces";
+import { getPosts, getRecentPosts } from "@/services/posts/posts.service";
+import { Edge } from "@/services/posts/posts.interfaces";
 
 interface IHomePage {
   posts: Edge[];

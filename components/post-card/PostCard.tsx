@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { DateTime } from "luxon";
 
-import { Node } from "@/services/posts.interfaces";
+import { Node } from "@/services/posts/posts.interfaces";
 
 interface IPostCard {
   post: Node;

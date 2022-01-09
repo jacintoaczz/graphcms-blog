@@ -1,8 +1,11 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { IPostDetail } from "@/services/posts.interfaces";
-import { getRecentPosts, getSimilarPosts } from "@/services/posts.service";
+import { IPostDetail } from "@/services/posts/posts.interfaces";
+import {
+  getRecentPosts,
+  getSimilarPosts,
+} from "@/services/posts/posts.service";
 import { DateTime } from "luxon";
 
 interface IPostWidget {
